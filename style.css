@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(114, 145, 106);
+}
+
+#logo {
+    width: 900px;
+    padding-bottom: 0;
+}
+header{
+    height: 300px;
+    width: 900px;
+    background-color:#006666;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+.menu-home > a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px 5px 2px 1px;  
+    font-size: 15.8px;
+}
+
+.menu-home {
+    padding-top: 1%;
+}
+
+/* Conteudo home */
+#home-pag {
+    background-color: white;
+    width: 900px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#home-pag > img{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.jogos {
+    width: 430px;
+    height: 220px;
+    border: thin #006666 solid;
+    text-align: center;
+    margin: 8px;
+    padding: 5px;
+    box-sizing: border-box;
+    display: inline-table;
+}
+.jogos > a {
+    font-size: x-large;
+}
+.jogos > img {
+    padding: 10px;
+}
+footer {
+    margin: 0 25% 0 25%;
+    width: 900px;
+    text-align: center;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.753);
+}
+
+/* Pagina 2*/
+
+#segunda-pag {
+    height: 300px;
+    width: 900px;
+    background-color: red;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#menu-segunda > a{
+    text-decoration: none;
+    color: rgb(0, 253, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px 5px 2px 1px;  
+    font-size: 15.8px;
+}
+#menu-segunda {
+    padding-top: 1%;
+}
+
+.conteudo {
+    background-color: white;
+    width: 900px;
+    margin: 0 25%;
+}
+
+.paginas > img {
+    padding-left: 250px;
+    height: 300px;   
+    margin-bottom: 20px; 
+}
+
+.paginas{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 0 8px 0 8px;
+}
+#paginas> h1, p {
+    text-shadow: rgba(0, 0, 0, 0.178) 1px 1px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
